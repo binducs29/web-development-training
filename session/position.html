@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .chat-icon {
+            height: 200px;
+            width: 200px;
+            background-color: orangered;
+            border-radius: 50%;
+            position: fixed;
+            left: 10px;
+            bottom: 10px
+        }
+
+        header {
+            height: 120px;
+            background-color: orchid;
+            font-size: 20;
+            padding-top: 20px;
+            text-align: center;
+
+        }
+
+        nav {
+            height: 120px;
+            position: sticky;
+            background-color: seagreen;
+            top: 10px;
+        }
+
+        section {
+            height: calc(100vh - (120px + 120px));
+            background-color: aqua;
+            padding: 30px;
+
+        }
+
+        p {
+            margin: 10;
+            font-size: 25;
+
+        }
+
+        .height {
+            height: 50px;
+            padding: 20px;
+        }
+
+        .child-one {
+            background-color: lightsalmon;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+
+        .child-two {
+            background-color: purple;
+            position: relative;
+        }
+
+        .child-three {
+            background-color: saddlebrown;
+            position: absolute;
+            margin: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<header>hello world</header>
+<nav></nav>
+<section> parent
+    <!-- <p>Start browsing, and we’ll show some of the great articles, videos, and other pages you’ve recently visited or -->
+    <!-- bookmarked here.</p> -->
+
+    <div class="child-one height">ONE</div>
+    <div class="child-two height">TWO</div>
+    <div class="child-three height">THREE</div>
+
+
+
+</section>
+<div class="chat-icon"></div>
+
+</html>

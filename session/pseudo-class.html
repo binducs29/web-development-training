@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: rgba(163, 24, 128, 0.685);
+            margin: 10px;
+            padding: 20px;
+            width: 800px;
+            height: 100px;
+            color: rgba(66, 9, 199, 0.808);
+            font-size: 20px;
+            cursor: pointer;
+            box-sizing: border-box;
+            display: block;
+        }
+
+
+        button:hover {
+            border: 10px double rgb(37, 8, 199)
+        }
+
+
+        button:nth-child(5) {
+            background-color: hotpink;
+        }
+
+        button:nth-child(even) {
+            background-color: indianred;
+
+        }
+
+        button:nth-child(n+5) {
+            background-color: orange;
+
+        }
+
+        button:nth-child(-n+5) {
+            background-color: rgb(184, 183, 122);
+        }
+
+        /* select the first five  */
+
+        button:nth-child(2n+1) {
+            background-color: cornflowerblue;
+        }
+
+        /* select every 3rd from 1st   */
+
+
+        button:nth-last-child(3) {
+            background-color: rgb(16, 95, 16);
+        }
+
+
+        .click-me1 {
+            border-style: none;
+        }
+
+        .click-me2 {
+            border-style: fixed;
+        }
+
+        .click-me3 {
+            border-style: dashed;
+        }
+
+        .click-me4 {
+            border-style: dotted;
+        }
+
+        .click-me5 {
+            border-style: inset;
+        }
+
+        .click-me6 {
+            border-style: outset;
+        }
+
+        .click-me7 {
+            border-style: dashed dotted;
+        }
+
+        .click-me8 {
+            border-style: dashed groove double;
+        }
+
+        .click-me9 {
+            border-style: inset outset none dotted;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <button class="click-me1"> click me1 </button>
+    <button class="click-me2"> click me2 </button>
+    <button class=" click-me3"> click me3 </button>
+    <button class="click-me4">click me4 </button>
+    <button class=" click-me5">click me5 </button>
+    <button class="click-me6">click me6 </button>
+    <button class=" click-me7">click me7 </button>
+    <button class="click-me8">click me8</button>
+    <button class=" click-me9">click me9 </button>
+    <button>click me10 </button>
+
+
+</body>
+
+</html>

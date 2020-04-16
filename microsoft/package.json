@@ -1,0 +1,24 @@
+{
+  "name": "microsoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-html": "htmlminify ./source/index.html > build/index.html",
+    "minify-css": "postcss ./source/styles/microsoft.css > build/styles/microsoft.css",
+    "copy": "rm -rf build/ && mkdir build && cp -r source/* build/",
+    "minify": "npm run minify-html && npm run minify-css",
+    "build": "npm run copy && npm run minify",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "^7.1.0"
+  },
+  "devDependencies": {
+    "html-minify": "^0.3.2",
+    "cssnano": "^4.1.10"
+  }
+}

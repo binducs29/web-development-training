@@ -1,0 +1,66 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+}
+
+.image-spec {
+    width: 100%
+}
+
+.content-spec {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+}
+
+.heading-spec {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.para-spec {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.button-link {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+    line-height: 18.5px;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    text-decoration: underline;
+}
+
+.img-content {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.placement {
+    width: 33.1%;
+    display: inline-block;
+}
+
+.placement img {
+    width: 100%;
+}
+
+.placement p {
+    height: 80px;
+}
