@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" </head>
+
+    <body>
+
+        <section class="container">
+            <form>
+                <h1>INFORMATION FORM</h1>
+                <label> First Name:</label> <input type="text" name="First- Name" required><br />
+                <label> Last Name:</label><input type="text" namer="last- Name" required><br />
+                <label> Email:</label><input type="email" namer="email" required><br />
+                <label> Userame:</label> <input type="text" name="Username" required><br />
+                <label> Password:</label><input type="password" name="password" required><br />
+                <p class="para-spec">(min.8 charecters,1 number, case-sensitivie)</p>
+                <label> Address:</label><input type="text" name="address"><br />
+                <label> City:</label><input type="text" name="city"><br />
+                <label> State: </label>
+                <select name="state" class="state-width">
+                <option value=""></option>
+                <option value=" tamilnadu"> Tamilnadu </option>
+                <option value="kerala"> Kerala </option>
+                <option value="andra-pradesh"> Andra Pradesh</option>
+                <option value="karnataka">Karnataka </option>
+                <option value="Maharashtra"> Maharahtra</option>
+                <option value="west-bengal"> West Bengal</option>
+                <option value="orrisa"> Orrisa</option>
+                <option value="rajasthan">Rajasthan </option>
+                <option value="haryana"> Haryana</option>
+            </select>
+                <br>
+                <label> Zipcode: </label> <input type="text" name="zip-code">
+                </<br />
+                <label> Date Of Birth: </label> <input type="date" name="date"><br />
+
+
+                <Div class="gender-wrap"> Gender:
+                    <input type="radio" id="male" name="gender" value="male"><label for="male"> Male</label>
+                    <input type="radio" id="female" name="gender" value="female"><label for="female"> Female</label>
+                    <input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>
+                </Div>
+                <div class="gender-wrap">
+                    <input type="checkbox" id="terms&conditions" name="terms&condition" value="terms&conditions" />
+                    <label for="terms&conditions"> I Agree to terms of services and privacy policy </label>
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+        </section>
+    </body>
+
+</html>
