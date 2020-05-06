@@ -1,0 +1,152 @@
+:root {
+    --h1-color: #161C2D;
+    --para-color: #8392A6;
+    --brand-color: #3c4858;
+    --text-change-color: #2f55d4;
+    --btn-bg-color: #2f55d4;
+    --btn-font-color: #ffffff;
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 60%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.navbar-item {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    padding: 25px 0;
+    text-transform: uppercase;
+    color:var(--brand-color)
+}
+
+.active {
+    color: var(--text-change-color);
+}
+
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 3px 0;
+    letter-spacing: 1px;
+    line-height: 68px;
+    text-decoration: none;
+    color:var(--brand-color)
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.content {
+    width: 56%;
+    padding: 10px;
+}
+
+.banner-image > img {
+    height: 80%;
+    vertical-align: middle;
+}
+
+.banner-image {
+    width: 44%;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: var(--h1-color);
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: var(--h1-color);
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-weight: 400;
+    color:var(--para-color);
+}
+
+.color-change {
+    color: var(--text-change-color);
+    font-weight: 700;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 8px 20px;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 1px solid #2f55d4;
+    background-color:transparent;
+    color: var(--text-change-color);
+    text-decoration: none;
+}
+
+.btn-prime {
+    background-color: var(--btn-bg-color);
+    box-shadow: 0 3px 5px 0 rgba(47, 85, 212, 0.3);
+    color: var(--btn-font-color);
+}
+
+.btn:hover {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-font-color);
+}
+
+.margin-right-8 {
+    margin-right: 8px;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.margin-right {
+    margin-right: 8px;
+}

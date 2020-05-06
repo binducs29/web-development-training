@@ -1,0 +1,51 @@
+:root {
+    --bg-color: pink;
+    --color: rgb(33, 15, 136);
+    --hover-color: rgb(246, 161, 175);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
+}
+    
+.container {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px; 
+}
+
+.nav-brand {
+    display: flex;    
+    align-items: center;
+}
+
+.nav-item {
+    color: var(--color);
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-item:hover {
+   background-color: var(--hover-color);
+}
+
+.nav-brand-image {
+    width: 25px;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}

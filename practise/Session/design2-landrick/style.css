@@ -1,0 +1,131 @@
+.container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.item-wrapper {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    color:var(--brand-color)
+}
+
+.nav-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 3px 0;
+    letter-spacing: 1px;
+    line-height: 68px;
+    color:var(--brand-color);
+    text-decoration: none;
+}
+
+.active {
+    color: var(--active-color);
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    border: 1px solid #2f55d4;
+    border-radius: 6px;
+    background-color: transparent;
+    color: var(--active-color);
+}
+
+    .btn-prime {
+    background-color: var(--btn-bg-color);
+    box-shadow: 0 3px 5px 0 rgba(47, 85, 212, 0.3);
+    color: var(--btn-font-color);
+    }
+
+    .margin-right {
+    margin-right: 8px;
+    }
+
+   
+    .content-wrapper {
+    width: 55%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(60, 72, 88, 0.15);
+    border-radius: 6px;
+    padding: 34px;
+    padding-bottom: 50px;
+    line-height: 26px;
+    }
+
+    .content {
+    height: calc(100vh - 150px);
+    background: url(../0image/3.jpg) center center; 
+    background-size: cover;
+    }
+
+    .title {
+    font-size: 2.8125rem;
+    color: var(--title-color);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 16px;
+    }
+
+    .para-desc {
+        font-size: 1.125rem;
+        line-height: 1.6;
+        color: var(--para-color);
+        max-width: 600px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .img-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 40px 0;
+    }
+    
+    .brand-images {
+        background-color: #f8f9fc;
+    }
+
+   .img {
+       height: 25px;
+   }
+
+   .content-right {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
+
+   .height-100-percent {
+       height: 100%;
+   }

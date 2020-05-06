@@ -1,0 +1,25 @@
+:root {
+    --title-color: #161C2D;
+    --para-color: #8392A6;
+    --brand-color: #3c4858;
+    --active-color: #2f55d4;
+    --btn-bg-color: #2f55d4;
+    --btn-font-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    
+    
+   
+    
+}
+
