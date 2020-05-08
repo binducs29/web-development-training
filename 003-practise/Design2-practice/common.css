@@ -2,10 +2,12 @@
      --title-color: #161C2D;
     --para-color: #8392A6;
     --brand-color: #3c4858;
-    --active-color: #d42f8f;
-    --btn-bg-color:#d42f8f;
+    --active-color:#ff5b69;
+    --btn-bg-color:#ff5b69;
+    --btn-highlight-color:#ff283a;
     --btn-font-color: #ffffff;
     --bg-color: #ffffff;
+    --work-para-color: #8492a6 ;
 }
 
 * {
@@ -13,7 +15,7 @@
 }
 
 body {
-    
+    margin: 0;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     line-height: 1.5;

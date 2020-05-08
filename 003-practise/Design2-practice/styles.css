@@ -1,10 +1,18 @@
-
 .nav-wrapper {
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.nav-style {
+    height: 80px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: var(--bg-color);
+    box-shadow:  0 3px 5px 0 rgba(47, 85, 212, 0.3);
+}
+
 
 .nav-brand {
     font-weight: 700;
@@ -23,16 +31,15 @@
     color:var(--brand-color);
 }
 
+.nav-middle-items > a:hover {
+    color: var(--active-color);
+
+}
+
 .nav-middle-items {
     width: 40%;
     display: flex;
     justify-content: space-between;
-}
-
-.nav-style {
-    position: fixed;
-    width: 100%;
-    background-color: var(--bg-color);
 }
 
 .btn {
@@ -40,7 +47,7 @@
     cursor: pointer;
     padding: 8px 25px;
     background-color: transparent;
-    border: 1px solid  #d42f8f;
+    border: 1px solid  #ff5b69 ;
     border-radius: 6px;
     color: var(--active-color);
     font-size: 1rem;
@@ -54,6 +61,7 @@
     box-shadow:  0 3px 5px 0 rgba(47, 85, 212, 0.3);
 }
 
+
 .margin-right {
     margin-right: 8px;
 }
@@ -63,8 +71,12 @@
     color: var(--btn-font-color);
 }
 
+.btn-primary:hover {
+    background-color: var(--btn-highlight-color);
+}
+
 .margin-bottom {
-    margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 
 .title {
@@ -85,6 +97,11 @@
 }
 
 .active {
+    color: var(--active-color);
+}
+
+
+.highlight {
     color: var(--active-color);
 }
 
@@ -152,5 +169,53 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.text-decor {
+    text-decoration: none;
+}
+
+.step {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--title-color);    
+    opacity: 0.06;
+}
+
+.wrapper-picture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+}
+
+.work-spec {
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+}
+
+.work-outline-spec {
+    width: 48%;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+.work-head {
+    margin: 0;
+    margin-top: 7px;
+    font-size: 	1.125rem;
+    color: var(--title-color);
+}
+
+.work-text {
+    margin: 0;
+    font-size: 	0.9375rem;
+    color: var(--work-para-color);
+}
+
+.work-outline-spec > p:hover {
+    color: var(--active-color)
 }
