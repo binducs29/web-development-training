@@ -216,6 +216,6 @@
     color: var(--work-para-color);
 }
 
-.work-outline-spec > p:hover {
+.work-outline-spec .work-head:hover {
     color: var(--active-color)
 }
