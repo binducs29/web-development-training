@@ -7,7 +7,11 @@
     --btn-highlight-color:#ff283a;
     --btn-font-color: #ffffff;
     --bg-color: #ffffff;
+    --secondary-bg-color: #f8f9fc;
     --work-para-color: #8492a6 ;
+    --border-color: rgba(0,0,0,.125);
+    --active-box-shadow: rgba(255, 91, 105, 0.3);
+    --box-shadow: rgba(60, 72, 88, 0.15);
 }
 
 * {
